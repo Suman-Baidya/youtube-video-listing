@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(6, 0, 22);
     color: rgb(178, 255, 255);
     font-family: Arial, sans-serif;
     padding: 30px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,11 +22,11 @@ nav{
     margin-bottom: 12px;
 }
 
-nav h1{
+nav h1 {
     font-size: 34px;
 }
 
-nav .search-bar{
+nav .search-bar {
     width: 30%;
     border: 2px solid #fff;
     background-color: transparent;
@@ -42,6 +42,7 @@ nav .search-bar{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
+
 .video-card {
     background: transparent;
     border-radius: 8px;
@@ -50,7 +51,7 @@ nav .search-bar{
     display: flex;
     flex-direction: column;
     align-items: start;
-    text-align: left;    
+    text-align: left;
 }
 
 .video-card img {
@@ -61,22 +62,25 @@ nav .search-bar{
     overflow: hidden;
 }
 
-.video-card img:hover{
+.video-card img:hover {
     scale: 1.05;
     transition: all;
     transition-duration: 0.3s;
 }
+
 .video-info {
     padding: 10px;
     text-align: left;
     color: rgb(0, 204, 10);
 }
+
 .video-title {
     font-size: 20px;
     line-height: 24px;
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .channel-name {
     font-size: 16px;
     color: rgb(255, 255, 255);
