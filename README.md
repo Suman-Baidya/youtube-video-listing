@@ -15,8 +15,8 @@ This project is a simple, responsive YouTube video grid layout built using HTML,
 
 ## Installation
 ```sh
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/Suman-Baidya/youtube-video-listing.git
+cd youtube-video-listing
 ```
 
 ## Usage
@@ -28,4 +28,4 @@ cd your-repository
 - Modify the CSS styles to change the appearance as needed.
 
 ## Live Demo
-Check out the live demo here: 
+Check out the live demo here: https://video-listing.netlify.app
